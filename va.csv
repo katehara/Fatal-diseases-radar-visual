@@ -1,0 +1,42 @@
+"","cause","deaths"
+"1","Asthma",0.0128763792433241
+"2","Cerebrovascular disease",0.0407240295408346
+"3","Chronic kidney disease",0.00931649751771528
+"4","Chronic obstructive pulmonary disease",0.0480589680937138
+"5","Chronic respiratory diseases",0.0821597698423904
+"6","Cirrhosis",0.021367588018412
+"7","Congenital anomalies",0.00942167682409769
+"8","Diabetes mellitus",0.0145482342765871
+"9","Diarrheal diseases",0.0260461343976777
+"10","Digestive diseases",0.0223911571964047
+"11","Drowning",0.00663894851627548
+"12","Falls",0.00717607941615118
+"13","Fire, heat, and hot substances",0.00452113711656103
+"14","Hemorrhagic stroke",0.022296601266044
+"15","HIV/AIDS",0.0147852129213359
+"16","Hypertensive heart disease",0.015848257598864
+"17","Injuries",0.0862443840124414
+"18","Interstitial lung disease and pulmonary sarcoidosis",0.00956184896937738
+"19","Intestinal infectious diseases",0.00762241026153477
+"20","Ischemic heart disease",0.106762639030739
+"21","Ischemic stroke",0.0184274073335345
+"22","Lower respiratory infections",0.0279597143497864
+"23","Malaria",0.00710209642212395
+"24","Neonatal disorders",0.0656685356125898
+"25","Neonatal sepsis and other neonatal infections",0.0102597064732873
+"26","Neoplasms",0.0388615277759641
+"27","Neurological disorders",0.00820070674349478
+"28","Nutritional deficiencies",0.0105557222144205
+"29","Pedestrian road injuries",0.00875697671958222
+"30","Peptic ulcer disease",0.00783516233668483
+"31","Pneumoconiosis",0.00998746768066659
+"32","Preterm birth complications",0.0243901245042301
+"33","Protein-energy malnutrition",0.00694005421447293
+"34","Rheumatic heart disease",0.00503662091685064
+"35","Road injuries",0.0231340618058039
+"36","Self-harm",0.0189387102736412
+"37","Self-harm and interpersonal violence",0.0247206440443394
+"38","Transport injuries",0.0250913276817572
+"39","Tuberculosis",0.0476972719506668
+"40","Typhoid fever",0.00563578228089049
+"41","Unintentional injuries",0.0364324246047307

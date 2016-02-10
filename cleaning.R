@@ -1,0 +1,28 @@
+library(ggplot2)
+setwd("~/Desktop")
+ihme <- read.csv("ihme.csv" , header = TRUE , fill = TRUE)
+ihme <- subset(ihme , select = -lower)
+ihme <- subset(ihme , select = -upper)
+ihme <- subset(ihme , select = -cause_id)
+ihme <- subset(ihme , select = -age_group_id)
+ihme <- subset(ihme , select = -sex_id)
+colnames(ihme) <- c("year" , "ageGroup" , "sex" , "cause" , "deaths")
+causes <- unique(ihme$cause)
+qplot(data = ihme , x = cause)
+
+cnt <- aggregate(ihme$deaths, by=list(Category = ihme$cause), FUN=sum)
+cnt <- subset(cnt,  !grepl(glob2rx("Other *") , Category) )
+cnt <- subset(cnt,  !grepl(glob2rx("* meningitis") , Category) )
+cnt <- subset(cnt,  !grepl(glob2rx("*due to*") , Category) )
+cnt <- subset(cnt,  !grepl(glob2rx("*use disorders") , Category) )
+qplot(data = cnt , x = log10(x))
+cnt <- subset(cnt , Category !="Non-communicable diseases")
+cnt <- subset(cnt , x > 917700)
+
+colnames(cnt) <- c("cause" , "d")
+ihme_new <- merge(ihme , cnt , by="cause")
+ihme_new <- ihme_new[,c(2 , 3 , 4 , 1 , 5)]
+ihme_new <- subset(ihme_new , ageGroup !="All Ages")
+ihme_new <- subset(ihme_new , year >2003)
+
+write.csv(ihme_new , "deathData.csv")

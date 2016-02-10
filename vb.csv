@@ -1,0 +1,43 @@
+"","cause","deaths"
+"1","Asthma",0.0172266458155902
+"2","Cerebrovascular disease",0.0501561661093086
+"3","Chronic kidney disease",0.00748185133551989
+"4","Chronic obstructive pulmonary disease",0.0462011878857594
+"5","Chronic respiratory diseases",0.0919462915340856
+"6","Cirrhosis",0.011332936094009
+"7","Congenital anomalies",0.00988473350225117
+"8","Diabetes mellitus",0.0165476940634742
+"9","Diarrheal diseases",0.0434436523992424
+"10","Digestive diseases",0.0207568772285318
+"11","Drowning",0.00514243284348053
+"12","Falls",0.00634666347079981
+"13","Fire, heat, and hot substances",0.0133693744685105
+"14","Hemorrhagic stroke",0.0267978686718785
+"15","HIV/AIDS",0.0101264629833003
+"16","Hypertensive heart disease",0.0164641084783967
+"17","Injuries",0.0711782003388602
+"18","Interstitial lung disease and pulmonary sarcoidosis",0.012437284000575
+"19","Intestinal infectious diseases",0.00779821971428859
+"20","Ischemic heart disease",0.0888073122576014
+"21","Ischemic stroke",0.02335830208667
+"22","Lower respiratory infections",0.0334796199111225
+"23","Malaria",0.0102133898221356
+"24","Maternal disorders",0.012869317719888
+"25","Neonatal disorders",0.067512516420263
+"26","Neonatal sepsis and other neonatal infections",0.00814954572803629
+"27","Neoplasms",0.0459835879599092
+"28","Neurological disorders",0.00898485761774025
+"29","Nutritional deficiencies",0.0143328271592181
+"30","Pedestrian road injuries",0.00544686507362093
+"31","Peptic ulcer disease",0.00567161088123237
+"32","Pneumoconiosis",0.0142190866040018
+"33","Preterm birth complications",0.0267203952875527
+"34","Protein-energy malnutrition",0.00845757182063696
+"35","Rheumatic heart disease",0.00709772493411733
+"36","Road injuries",0.00974395141789761
+"37","Self-harm",0.0159852941069812
+"38","Self-harm and interpersonal violence",0.0182755980284768
+"39","Transport injuries",0.0110965826840572
+"40","Tuberculosis",0.0313833628660285
+"41","Typhoid fever",0.00576598115318396
+"42","Unintentional injuries",0.0418060475217657

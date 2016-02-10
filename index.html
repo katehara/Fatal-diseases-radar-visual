@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title> Why Dead ?? </title>
+	<script type="text/javascript" src="d3.v3.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="UTF-8">
+
+</head>
+
+<body>
+	<header>
+		<nav>
+		    <div class="nav-wrapper">
+		      <a href="" class="brand-logo">Death Diaries 2004-2013</a>
+		      
+		    </div>
+		</nav>
+	</header> 
+
+	<main>
+		<div class="row head">
+		<h3> Introduction</h3>
+		<h5> People Die due to diseases. there can be thousands of 'em, due to millions of reasons, killing innumerable people all over the world. Here is a glimpse over the facts related to the same in India.The facts are derived from the human-readable data, and depicted in human-understandable form i.e. charts and visuals. These are over a span of ten years: 2004 - 2013</h5>
+		</div>
+
+
+		<!-- visualization row -->
+		<div class = "row ar1">
+			<h3> Rise in Deaths over 10 years</h3>
+			<div class= "col l8 s12 v">
+
+			</div>
+
+			<div class= "col l4 s12 i">
+			<h6> There has been a constant increase indeaths due to diseases, but the male population has been affected more than the female population. This may be due their higher sex ratio in advent of ever increasing population or because they have more exposure to the environment and people or both. Whatever may be the reason, this is a major concern to be dealt seriously and with apt measures.</h6>
+			</div>
+		</div>
+
+		<!-- visualization row -->
+		<div class = "row ar2">
+			<h3> Percentage of people died due to major diseases <h3>
+			<div class= "col l8 s12 v">
+				<div id="chart"> </div>
+
+			</div>
+
+			<div class= "col l4 s12 i">
+			<h6> Here are major diseases affecting humans that account for most of the deaths. For Male population, most dreadful diseases are - Ischemic Heart Diseases, Injuries and Chronic Respiratory Diseases and so on... Same for the females. We can see the distribution of deaths over all major diseases of the two genders. </h6>
+			</div>
+		</div>
+
+		<!-- visualization row -->
+		<div class = "row ar3">
+			<h3> Deaths of all age groups due to diseases </h3>
+			<div class= "col l8 s12 v" style="position:relative">
+
+			</div>
+
+			<div class= "col l4 s12 i">
+			<h6> Here we can see that most affected age groups are above 70 in both the genders, may be due to issues arising with their age and also due to poor nutrition and resources.<br><br> Also the figures worsen for female during neonatal period, age of 1 to 4 years and from 15 to 19 years and 80 above. This is the result of female infanticide and poor nutrition of girls during initial years and also the maternal deaths due to early conception between 15 to 19 years. <br><br> In all the other age groups, male deaths are higher due to poor sex-ratio in the country.</h6>
+			</div>
+		</div>
+
+		<!-- visualization row -->
+		<div class = "row ar4">
+			<h3> Stake of major 3 diseases in deaths of both the genders </h3>
+			<div class= "col l8 s12 v">
+
+			</div>
+
+			<div class= "col l4 s12 i">
+			<h6> Here we can see that top 3 deadly dieseases are same for both the genders, but their stake in deaths is different. Chronic respiratory diseases are the most common cause in females while Ischemic heart diseases in Males. </h6>
+
+			</div>
+		</div>
+
+		<!-- visualization row -->
+		
+		
+	</main>
+
+	<footer class="page-footer">
+			<div class="container">
+	            <div class="row">
+	              <div class="col l6 s6">
+	                <h5 class="white-text">Data Source</h5>
+	                <a href="https://cloud.ihme.washington.edu/index.php/s/b89390325f728bbd99de0356d3be6900" class="grey-text text-lighten-4">Institute for healh Metrics and Evaluation</a>
+	              </div>
+	              <div class="col l5 offset-l1 s6">
+	                <h5 class="white-text">Downloads</h5>
+	                <ul>
+	                  <li><a class="white-text" href="ihme.csv" download>Raw Data</a></li>
+	                  <li><a class="white-text" href="deathData.csv" download>Clean Data</a></li>
+	                  <li><a class="white-text" href="cleaning.R" download>R Script used for data cleaning and processing</a></li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+		    <div class="footer-copyright">
+	        <div class="container">
+	        © 2015 Copyright | VisTa Insights
+	        </div>
+	    </div>
+    </footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+	<script src="script.js"></script>
+	<script src="RadarChart.js"></script>
+
+	
+</body>
+
+</html>
